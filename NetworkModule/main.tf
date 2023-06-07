@@ -1,4 +1,4 @@
-#Provider
+#Provider for aws
 provider "aws" {
 	region = var.region
 }
