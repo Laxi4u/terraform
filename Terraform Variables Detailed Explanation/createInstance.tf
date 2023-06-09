@@ -1,5 +1,5 @@
 
-resource "aws_instance" "MyFirstInstnace" {
+resource "aws_instance" "suresh" {
   ami           = lookup(var.AMIS, var.AWS_REGION)
   instance_type = "t2.micro"
 
